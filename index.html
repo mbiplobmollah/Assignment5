@@ -19,7 +19,7 @@
                 <img src="assets/checkbox.png" alt="">
                 <h1 class="text-3xl font-bold">23</h1>
                 </div>
-                <img class="bg-[#F4F7FF] p-2 rounded-full" src="assets/theme-btn.png" alt="">
+                <img id="color" class="bg-[#F4F7FF] p-2 rounded-full" src="assets/theme-btn.png" alt="">
             </div>
         </nav>
     <section class="flex gap-6">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex rounded-lg justify-center h-[120px] bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] col-span-2">
+                <div id="discover" class="flex rounded-lg justify-center h-[120px] bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] col-span-2">
                     <div class="flex items-center gap-10">
                         <img src="assets/board.png" alt="">
                         <div class="">
@@ -57,7 +57,7 @@
             <!-- card container  -->
             <div class="px-4 py-8 grid grid-cols-3 gap-6">
                 <!-- 1st card  -->
-                <div class="bg-[#F4F7FF] py-5 rounded-lg">
+                <div class="bg-[#F4F7FF] py-5 rounded-lg completed">
                    <div class="border-b border-dashed mx-4">
                     <button class="btn text-xl py-2 bg-white">ShopEase</button>
                     <h1 class="text-2xl font-bold p-4">Fix Mobile Button Issue</h1>
@@ -74,7 +74,7 @@
                    </div>
                 </div>
                 <!-- 2nd card  -->
-                <div class="bg-[#F4F7FF] py-5 rounded-lg">
+                <div class="bg-[#F4F7FF] py-5 rounded-lg completed">
                    <div class="border-b border-dashed mx-4">
                     <button class="btn text-xl py-2 bg-white">CloudSync</button>
                     <h1 class="text-2xl font-bold p-4">Add Dark mode</h1>
@@ -90,7 +90,7 @@
                    </div>
                 </div>
                 <!-- 3rd card  -->
-                <div class="bg-[#F4F7FF] py-5 rounded-lg">
+                <div class="bg-[#F4F7FF] py-5 rounded-lg completed">
                    <div class="border-b border-dashed mx-4">
                     <button class="btn text-xl py-2 bg-white">SwiftPay</button>
                     <h1 class="text-2xl font-bold p-4">Optimize  Home page </h1>
@@ -107,7 +107,7 @@
                    </div>
                 </div>
                 <!-- 4th card  -->
-                <div class="bg-[#F4F7FF] py-5">
+                <div class="bg-[#F4F7FF] py-5 rounded-lg completed">
                    <div class="border-b border-dashed mx-4">
                     <button class="btn text-xl py-2 bg-white">Meta</button>
                     <h1 class="text-2xl font-bold p-4">Add new emoji 🤲</h1>
@@ -123,7 +123,7 @@
                    </div>
                 </div>
                 <!-- 5th card  -->
-                <div class="bg-[#F4F7FF] py-5 rounded-lg">
+                <div class="bg-[#F4F7FF] py-5 rounded-lg completed">
                    <div class="border-b border-dashed mx-4">
                     <button class="btn text-xl py-2 bg-white">Google LLC</button>
                     <h1 class="text-2xl font-bold p-4">Integrate OpenAI API </h1>
@@ -139,7 +139,7 @@
                    </div>
                 </div>
                 <!-- 6th card  -->
-                <div class="bg-[#F4F7FF] py-5 rounded-lg">
+                <div class="bg-[#F4F7FF] py-5 rounded-lg completed">
                    <div class="border-b border-dashed mx-4">
                     <button class="btn text-xl py-2 bg-white">Glassdoar</button>
                     <h1 class="text-2xl font-bold p-4">Improve Job searching </h1>
@@ -168,5 +168,10 @@
         </div>
     </section>
     </section>
+
+
+
+    <script src="script/btn-redirect.js"></script>
+    <script src="script/btn-disable.js"></script>
 </body>
 </html>
