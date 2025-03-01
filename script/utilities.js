@@ -1,6 +1,6 @@
 function convertString(id){
-    let value =  document.getElementById(id).innerText;
-    let convertValue = Number(value);
+    const value =  document.getElementById(id).innerText;
+    const convertValue = Number(value);
     return convertValue;
 
 }
