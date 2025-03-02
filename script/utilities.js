@@ -17,9 +17,10 @@ function getInnerText(button){
 
     const div = document.createElement('div');
     div.classList.add('newTextField');
-    div.innerHTML = `<p class ="text-xl bg-[#F4F7FF] rounded-2xl p-2 m-2" >You have completed the task ${taskTitle}</p>`;
+    div.innerHTML = `<p class ="text-xl bg-[#F4F7FF] rounded-2xl p-2 m-2" >You have completed the task ${taskTitle} ${formattedTime}</p>`;
     activity.appendChild(div);
                 
 
 }
+
 
