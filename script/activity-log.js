@@ -29,3 +29,4 @@ const formattedTime = now.toLocaleTimeString('en-gb', {
   second: '2-digit',
   hour12: true
 });
+
