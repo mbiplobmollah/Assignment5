@@ -15,6 +15,12 @@ for(const button of buttons){
                 alert('Board updated Successfully');
                 setValueToInnertext('number', newNum); 
                 setValueToInnertext('task',newTaskNum);
+                getInnerText(event.target);
+
+                if(taskNum===1){
+                    alert('congrats!!! You have completed all the current task ')
+            
+                }
             }
             
 

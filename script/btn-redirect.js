@@ -9,3 +9,4 @@ document.getElementById('color').addEventListener('click', function (){
 
     document.body.style.backgroundColor = `rgb(${r}, ${g},${b})` ;
 })
+
